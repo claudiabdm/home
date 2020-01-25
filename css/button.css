@@ -1,0 +1,43 @@
+/*------------------------------*/
+/* BUTTON                       */
+/* ---------------------------- */
+
+.btn {
+    display: inline-block;
+    border: none;
+    border-radius: 8px;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: #4a90e2;
+    cursor: pointer;
+}
+
+.btn--search {
+    width: 4.938rem;
+    height: 2.313rem;
+    margin: 9px 14px 10px 0px;
+    border-radius: 4px;
+    background-color: #ffe55d;
+    color: #4a4a4a;
+}
+
+.btn--more {
+    margin-top: 28px;
+    padding: 15px 19px 18px;
+    background-color: #7ed321;
+    font-size: 1.25rem;
+}
+
+.btn--submit {
+    padding: 10px 16px;
+}
+
+.btn--other {
+    margin-top: 30px;
+    padding: 10px 40px;
+}

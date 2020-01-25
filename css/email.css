@@ -1,0 +1,29 @@
+/*------------------------------*/
+/* EMAIL                        */
+/* ---------------------------- */
+
+.email {
+    display: block;
+    margin-top: 44px;
+}
+
+.email__label{
+    display: block;
+    margin-bottom: 13px;
+}
+
+.email__input {
+    display: block;
+    width: 18rem;
+    height: 2.5rem;
+    border: 1px solid #dadada;
+    border-radius: 8px;
+    padding: 10px 99px 10px 13px;
+    margin-bottom: 14px;
+}
+
+.email__input::placeholder {
+    color: #9b9b9b;
+    font-size: 1rem;
+    font-weight: 400;
+}

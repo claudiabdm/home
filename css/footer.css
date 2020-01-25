@@ -1,0 +1,21 @@
+/*------------------------------*/
+/* FOOTER                       */
+/* ---------------------------- */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 96px 82.5px;
+}
+
+.footer__link{
+    color: #4a90e2;
+}
+
+.footer__li:not(:last-child){
+    margin-right: 38px;
+}
+
+.footer__copy {
+    font-size: 0.875rem;
+}

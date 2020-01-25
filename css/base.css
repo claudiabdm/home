@@ -1,0 +1,41 @@
+/*------------------------------*/
+/* BASE                         */
+/* ---------------------------- */
+
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+strong {
+    font-weight: bold;
+}
+
+h1 {
+    margin-bottom: 17px;
+}
+
+p {
+    line-height: 1.688rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+}
+
+time {
+    color: #999;
+    font-size: 0.813rem;
+}
+
+input {
+    padding: 9px 17px;
+    font-size: 1rem;
+}

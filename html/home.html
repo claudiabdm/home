@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
-	<link rel="stylesheet" href="../css/toggler.css">
+	<link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
@@ -16,9 +16,9 @@
 			<a href="#" class="navbar__link">Servicios</a>
 			<a href="#" class="navbar__link">Nosotros</a>
 			<div class="dropdown">
-				<button type="button" class="dropdown__btn" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false">
-				  Formación
-				</button>
+				<a href="#" role="button" class="dropdown__btn" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false">
+				  Formación<i class="dropdown__icon icon-Triangle-down"></i>
+				</a>
 				<div class="dropdown__menu" aria-labelledby="dropdownMenuButton">
 					<a href="#" class="dropdown__link">Angular 7 + Animations - <time>18 Ene 2019</time></a>
 					<a href="#" class="dropdown__link">Angular 7 Avanzado - <time>Proximamente</time></a>
@@ -44,19 +44,19 @@
 					<a href="#" class="dropdown__link">Bootcamp</a>
 				</div>
 			</div>
-			<button type="submit" class="btn search__btn btn--theme-yellow btn--size-s">Buscar</button>
+			<button type="submit" class="btn btn--search">Buscar</button>
 		</form>
 	</header>
 	<!-- //Cabecera -->
 	
 	<main>
 		<!-- Intro -->
-		<article class="article">
+		<article class="article article__intro">
 
-			<h1 class="article__title--size-xl">¡Hola a todos!</h1>
-			<p class="article__desc--size-m">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem illo, sapiente facere molestiae fugiat eligendi <strong>quidem in iure tempora</strong>! Consectetur ex, autem amet maxime odit. 
+			<h1 class="article__title article__title--size-xl">¡Hola a todos!</h1>
+			<p class="article__txt article__txt--size-m">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem illo, sapiente facere molestiae fugiat eligendi <strong>quidem in iure tempora</strong>! Consectetur ex, autem amet maxime odit. 
 				Adipisci quod, tenetur reiciendis nemo. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-			<a href="#" title="Acerca de Campus Boream" class="btn btn--more btn--size-l">Más información</a>
+			<a href="#" title="Acerca de Campus Boream" class="btn btn--more">Más información</a>
 
 		</article>
 		<!-- // Intro -->
@@ -64,49 +64,51 @@
 		<!-- Cursos -->
 		<section class="section">
 			
-			<article class="article">
-				<h2 class="article__title--size-m"><a href="#" class="article__link">Angular 7 + Animations</a></h2>
+			<article class="article article__course">
+				<h2 class="article__title article__title--size-m"><a href="#" class="article__link">Angular 7 + Animations</a></h2>
 				<img src="../images/curso.png" class="article__img" alt="Persona tocando tablet">
-				<p class="article__desc--size-s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem illo, sapiente facere molestiae fugiat eligendi quidem in iure
+				<p class="article__txt article__txt--size-s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem illo, sapiente facere molestiae fugiat eligendi quidem in iure
 					tempora! Consectetur ex, autem amet maxime odit. Adipisci quod, tenetur reiciendis nemo. Lorem ipsum dolor sit amet, consectetur.</p>
 			</article>
 
-			<article class="article">
-				<h2 class="article__title--size-m"><a href="#" class="article__link">Docker + Kubernetes</a></h2>
+			<article class="article article__course">
+				<h2 class="article__title article__title--size-m"><a href="#" class="article__link">Docker + Kubernetes</a></h2>
 				<img src="../images/curso.png" class="article__img" alt="Móvil en ordenador portátil">
-				<p class="article__desc--size-s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem illo, sapiente facere molestiae fugiat eligendi quidem in iure tempora! Consectetur ex, autem amet maxime odit. Adipisci quod, tenetur reiciendis nemo. Lorem ipsum dolor sit amet, consectetur.</p>
+				<p class="article__txt article__txt--size-s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem illo, sapiente facere molestiae fugiat eligendi quidem in iure tempora! Consectetur ex, autem amet maxime odit. Adipisci quod, tenetur reiciendis nemo. Lorem ipsum dolor sit amet, consectetur.</p>
 			</article>
 
-			<article class="article">
-				<h2 class="article__title--size-m"><a href="#" class="article__link">NodeJS</a></h2>
+			<article class="article article__course">
+				<h2 class="article__title article__title--size-m"><a href="#" class="article__link">NodeJS</a></h2>
 				<img src="../images/curso.png" class="article__img" alt="Persona mirando código en ordenador portatil">
-				<p class="article__desc--size-s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem illo, sapiente facere molestiae fugiat eligendi quidem in iure tempora! Consectetur ex, autem amet maxime odit. Adipisci quod, tenetur reiciendis nemo. Lorem ipsum dolor sit amet, consectetur.</p>
+				<p class="article__txt article__txt--size-s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem illo, sapiente facere molestiae fugiat eligendi quidem in iure tempora! Consectetur ex, autem amet maxime odit. Adipisci quod, tenetur reiciendis nemo. Lorem ipsum dolor sit amet, consectetur.</p>
 			</article>
 
 		</section>
 		<!-- // Cursos -->
 
 		<!-- Proximas convocatorias -->
-		<article class="article">
+		<article class="article article__video">
 			
 			<img class="article_img" src="../images/video.png" type="video/mp4"  width="501" height="358" alt="Video presentación">
-			<h2 class="article__title--size-m">Próximas convocatorias</h2>
-			<p class="article__desc--size-s"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem illo, sapiente facere molestiae.</p>
-			<form action="..." class="email">
-				<label for="email" class="email__label">Indica tu correo electrónico</label>
-				<input type="email" id="email" placeholder="Introduce un email válido" class="email__label">
-				<button type="submit" class="btn btn--theme-blue btn--size-m">Me apunto!</button>
-			</form>
+			<div class="article__conv">
+				<h2 class="article__title article__title--size-m">Próximas convocatorias</h2>
+				<p class="article__txt article__txt--size-s"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem illo, sapiente facere molestiae.</p>
+				<form action="..." class="email">
+					<label for="email" class="email__label">Indica tu correo electrónico</label>
+					<input type="email" id="email" placeholder="Introduce un email válido" class="email__input">
+					<button type="submit" class="btn btn--submit">Me apunto!</button>
+				</form>
+			</div>
 
 		</article>
 		<!-- // Proximas convocatorias -->
 
 		<!-- Apoyo profesional -->
-		<article class="article">
+		<article class="article article__apoyo">
 
-			<h2 class="article__title--size-l">Servicios de apoyo profesional</h2>
-			<p class="article__desc--size-s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem illo, sapiente facere molestiae fugiat eligendi quidem in iure tempora! Consectetur ex, autem amet maxime odit. Adipisci quod, tenetur reiciendis nemo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid maxime et esse aspernatur, natus quidem voluptas.</p>
-			<a href="#" class="btn btn--theme-blue btn--size-m">Lorem ipsum</a>
+			<h2 class="article__title article__title--size-l">Servicios de apoyo profesional</h2>
+			<p class="article__txt--size-s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem illo, sapiente facere molestiae fugiat eligendi quidem in iure tempora! Consectetur ex, autem amet maxime odit. Adipisci quod, tenetur reiciendis nemo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid maxime et esse aspernatur, natus quidem voluptas.</p>
+			<a href="#" class="btn btn--other">Lorem ipsum</a>
 
 		</article>
 		<!-- // Apoyo profesional -->
@@ -124,7 +126,7 @@
 			<li class="footer__li"><a href="#" class="footer__link">Contacto</a></li>
 		</ul>
 
-		<div>&copy; Company 2018</div>
+		<div class="footer__copy">&copy; Company 2018</div>
 
 	</footer>
 	<!-- // Footer -->

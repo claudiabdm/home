@@ -3,13 +3,16 @@ function init() {
   // Dropdown
   // --------------------------------------------------------
   var dropdown = document.querySelector('.dropdown__btn');
+  var dropdownIcon = document.querySelector('.dropdown__icon');
 
   dropdown.onclick = function(event) {
     var dropdown = this;
     if (dropdown.hasAttribute('aria-expanded') && dropdown.getAttribute('aria-expanded') === 'false') {
       dropdown.setAttribute('aria-expanded', 'true');
+      dropdownIcon.setAttribute('class', 'dropdown__icon icon-Triangle-up');
     } else {
       dropdown.setAttribute('aria-expanded', 'false');
+      dropdownIcon.setAttribute('class', 'dropdown__icon icon-Triangle-down');
     }
   }
 

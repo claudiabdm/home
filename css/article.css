@@ -1,0 +1,72 @@
+/*------------------------------*/
+/* ARTICLE                      */
+/* ---------------------------- */
+
+.article__title {
+    margin-bottom: 20px;
+    color: #4a4a4a;
+    font-weight: 300;
+}
+
+.article__title--size-xl{
+    font-size: 3.875rem;
+}
+
+.article__title--size-l {
+    font-size: 2.125rem;
+}
+
+.article__title--size-m {
+    font-size: 1.625rem;
+}
+
+.article__intro {
+    padding: 61px 97px;
+    background-color: #efefef;
+}
+
+.article__txt--size-m {
+    font-size: 1.125rem;
+    font-weight: 300;
+    width: 52.063rem;
+}
+
+.article__link {
+    color: #4a90e2;
+}
+
+.article__course {
+    width: 24.688rem;
+}
+
+.article__course:not(:last-child){
+    margin-right: 31px;
+}
+
+img + .article__txt {
+    margin-top: -7.15px;
+}
+
+.article__img {
+    float: left;
+    margin-right: 13px;
+}
+
+.article__video {
+    display: flex;
+    background-color: #e8f6fc;
+    padding: 101px 291px 98px 310px;
+}
+
+.article__conv {
+    display: inline-block;
+    margin-left: 32px;
+}
+
+.article__apoyo {
+    display: block;
+    border-bottom: 2px solid #e5e5e5;
+    margin: 0px 96px 14.5px;
+    padding: 83px 106px;
+    text-align: center;
+}

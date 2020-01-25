@@ -1,0 +1,17 @@
+/*------------------------------*/
+/* NAVBAR                       */
+/* ---------------------------- */
+
+.navbar {
+    display: inline-flex;
+}
+
+.navbar__link {
+    text-decoration: none;
+    color: #fff;
+    padding: 17px 19px 20px;
+}
+
+.navbar__link:hover {
+    background-color: #979797;
+}

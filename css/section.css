@@ -1,0 +1,9 @@
+/*------------------------------*/
+/* SECTION                      */
+/* ---------------------------- */
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 98px 86px 94px;
+}
