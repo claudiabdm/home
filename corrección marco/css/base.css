@@ -1,0 +1,14 @@
+/*------------------------------*/
+/* BASE                         */
+/* ---------------------------- */
+
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+strong {
+    font-weight: bold;
+}
