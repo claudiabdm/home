@@ -21,7 +21,8 @@
 }
 
 .article__intro {
-    padding: 117px 97px 61px;
+    /* padding: 117px 97px 61px; */
+    padding: 61px 97px;
     background-color: #efefef;
 }
 
@@ -39,15 +40,19 @@
     width: 24.688rem;
 }
 
-.article__course:not(:last-child){
+/* .article__course:not(:last-child){
     margin-right: 31px;
+} */
+
+.article__course + .article__course {
+    margin-left: 31px;
 }
 
 img + .article__txt {
     margin-top: -7.15px;
 }
 
-.article__img {
+.aricle__course .article__img {
     float: left;
     margin-right: 13px;
 }
